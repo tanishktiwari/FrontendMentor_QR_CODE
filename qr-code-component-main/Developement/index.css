@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(220, 45%, 89%);
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chotu {
+    height: 500px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin-top: -69%;
+    height: 280px;
+    width: 280px;
+    border-radius: 7%;
+}
+.details {
+    /* margin-bottom: -95px; */
+    /* margin-top: 5px; */
+    height: 0px;
+    width: fit-content;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-style: normal;
+    font-size: 15px;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
